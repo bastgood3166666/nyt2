@@ -625,13 +625,13 @@ class DraggableMobileActions extends StatelessWidget {
                     color: Colors.white54,
                   ),
 
-                AntiShakeButton(
+              /*  AntiShakeButton(
                   text: "关闭共享",
                   scale: scale,
                   enabledBackgroundColor: Colors.red,   
                   disabledBackgroundColor: Colors.black26, 
                   onPressed: () => onScreenStartPressed?.call("关"),
-                ),
+                ),*/
 
                   /*
                   ElevatedButton(
