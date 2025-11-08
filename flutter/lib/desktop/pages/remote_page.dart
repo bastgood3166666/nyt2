@@ -340,7 +340,7 @@ class _RemotePageState extends State<RemotePage>
                         )
                       ]),
                     ))
-                   emptyOverlay()
+                  // emptyOverlay()
                   : () {
                       if (!_ffi.ffiModel.isPeerAndroid) {
                         return Offstage();
